@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build-demo:
+    name: Resolve LinkedBilling from GitHub + build (generic iOS Simulator)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Xcode version
+        run: xcodebuild -version
+      - name: Resolve the remote package (upToNextMajor from 2.6.1, Package.resolved committed)
+        run: xcodebuild -resolvePackageDependencies -project Demo.xcodeproj -scheme Demo -onlyUsePackageVersionsFromResolvedFile
+      - name: Build for a generic iOS Simulator
+        run: |
+          xcodebuild build -project Demo.xcodeproj -scheme Demo -onlyUsePackageVersionsFromResolvedFile \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO

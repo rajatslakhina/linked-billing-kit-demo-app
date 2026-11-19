@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E69A78CF64A83A53648AE96 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F26B7920D4245941DBFEED /* DemoApp.swift */; };
+		2043283C1857B0A743677776 /* LinkedBilling in Frameworks */ = {isa = PBXBuildFile; productRef = E1F3A5B7C9D1E3F5A7B9C1D3 /* LinkedBilling */; };
+		393F235202E128900347CB07 /* LinkedBillingTesting in Frameworks */ = {isa = PBXBuildFile; productRef = F0A2B4C6D8E0F2A4B6C8D0E2 /* LinkedBillingTesting */; };
+		1A2B3C4D5E6F708192A3B4C5 /* BillingDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F708192A3B4C5D6 /* BillingDemoModel.swift */; };
+		3C4D5E6F708192A3B4C5D6E7 /* DemoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F708192A3B4C5D6E7F8 /* DemoViews.swift */; };
+		5E6F708192A3B4C5D6E7F809 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F708192A3B4C5D6E7F8091A /* Format.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63F26B7920D4245941DBFEED /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		5F96C3F2C34865CD9F13F49A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3C4D5E6F708192A3B4C5D6 /* BillingDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingDemoModel.swift; sourceTree = "<group>"; };
+		4D5E6F708192A3B4C5D6E7F8 /* DemoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViews.swift; sourceTree = "<group>"; };
+		6F708192A3B4C5D6E7F8091A /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7FA57B93EC27AA41802D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2043283C1857B0A743677776 /* LinkedBilling in Frameworks */,
+				393F235202E128900347CB07 /* LinkedBillingTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD36CE2D6E866A010ED5118 = {
+			isa = PBXGroup;
+			children = (
+				0AECEBDCB8D49AD1B1DF25D7 /* Demo */,
+				75BEBF952B70BDF05C77860C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75BEBF952B70BDF05C77860C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F96C3F2C34865CD9F13F49A /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AECEBDCB8D49AD1B1DF25D7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				63F26B7920D4245941DBFEED /* DemoApp.swift */,
+				2B3C4D5E6F708192A3B4C5D6 /* BillingDemoModel.swift */,
+				4D5E6F708192A3B4C5D6E7F8 /* DemoViews.swift */,
+				6F708192A3B4C5D6E7F8091A /* Format.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6335E5FC5811B0FD8306C98 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AB98B0DBA0CDB36992AFB5 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				56222F1032E3AD2FA6742337 /* Sources */,
+				F7FA57B93EC27AA41802D0D7 /* Frameworks */,
+				A502615E301B95EC12F2B786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			packageProductDependencies = (
+				E1F3A5B7C9D1E3F5A7B9C1D3 /* LinkedBilling */,
+				F0A2B4C6D8E0F2A4B6C8D0E2 /* LinkedBillingTesting */,
+			);
+			productName = Demo;
+			productReference = 5F96C3F2C34865CD9F13F49A /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67B631B1EE3ED1AE16FEB48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C6335E5FC5811B0FD8306C98 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 7DCCE5861FF3E5AA52166E20 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD36CE2D6E866A010ED5118;
+			packageReferences = (
+				D2E4F6A8B0C1D3E5F7A9B1C3 /* XCRemoteSwiftPackageReference "linked-billing-kit" */,
+			);
+			productRefGroup = 75BEBF952B70BDF05C77860C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6335E5FC5811B0FD8306C98 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A502615E301B95EC12F2B786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56222F1032E3AD2FA6742337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E69A78CF64A83A53648AE96 /* DemoApp.swift in Sources */,
+				1A2B3C4D5E6F708192A3B4C5 /* BillingDemoModel.swift in Sources */,
+				3C4D5E6F708192A3B4C5D6E7 /* DemoViews.swift in Sources */,
+				5E6F708192A3B4C5D6E7F809 /* Format.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DB5AA45E43129C7AB5E284F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465F049334DB966CE46C7DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C9EC578A727F40519B364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linked Billing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajatlakhina.LinkedBillingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C1E5B7A2D4F6E8031A2B3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linked Billing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajatlakhina.LinkedBillingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DCCE5861FF3E5AA52166E20 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB5AA45E43129C7AB5E284F /* Debug */,
+				465F049334DB966CE46C7DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AB98B0DBA0CDB36992AFB5 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C9EC578A727F40519B364F /* Debug */,
+				9C1E5B7A2D4F6E8031A2B3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2E4F6A8B0C1D3E5F7A9B1C3 /* XCRemoteSwiftPackageReference "linked-billing-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rajatslakhina/linked-billing-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1F3A5B7C9D1E3F5A7B9C1D3 /* LinkedBilling */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2E4F6A8B0C1D3E5F7A9B1C3 /* XCRemoteSwiftPackageReference "linked-billing-kit" */;
+			productName = LinkedBilling;
+		};
+		F0A2B4C6D8E0F2A4B6C8D0E2 /* LinkedBillingTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2E4F6A8B0C1D3E5F7A9B1C3 /* XCRemoteSwiftPackageReference "linked-billing-kit" */;
+			productName = LinkedBillingTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F67B631B1EE3ED1AE16FEB48 /* Project object */;
+}

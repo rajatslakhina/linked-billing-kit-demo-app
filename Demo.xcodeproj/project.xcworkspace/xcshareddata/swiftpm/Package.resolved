@@ -1,0 +1,15 @@
+{
+  "originHash" : "c89821507b5e7a379a680909393dc96067d0fe50d442f880636b93514e67529e",
+  "pins" : [
+    {
+      "identity" : "linked-billing-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rajatslakhina/linked-billing-kit.git",
+      "state" : {
+        "revision" : "56c4eb869db3a1ec0bd56f79a9a082f839bac0b4",
+        "version" : "2.6.1"
+      }
+    }
+  ],
+  "version" : 3
+}
